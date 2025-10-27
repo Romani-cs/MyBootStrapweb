@@ -1,0 +1,6 @@
+# customHttp.yml
+httpHeaders:
+  - pattern: '**/*.html'
+    headers:
+      - key: Content-Type
+        value: text/html
